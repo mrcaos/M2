@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <title>NotasFinales</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="shortcut icon" type="image/png" href="./assets/img/verde.png" /> <!--poner icono para la ventana */-->
+
+</head>
+
+<body>
+    <div class="container py-5">
+        <h1 class="d-inline-block align-middle">Notas finales</h1>
+        <img src="assets/img/desafiolatam.png" alt="desafio latam" class="align-middle" style="float: right;">
+        <br>
+        <dl class="row">
+            <dt class="col-2">Nombre:</dt>
+            <dd class="col-10" id="nombre"></dd>
+            <dt class="col-2">Carrera:</dt>
+            <dd class="col-10" id="carrera"></dd>
+        </dl>
+        <br>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Ramo</th>
+                    <th scope="col">Nota1</th>
+                    <th scope="col">Nota2</th>
+                    <th scope="col">Nota3</th>
+                    <th scope="col">Promedio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td id="nota1HTML"></td>
+                    <td id="nota2HTML"></td>
+                    <td id="nota3HTML"></td>
+                    <td id="promedioHTML"></td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td id="nota1CSS"></td>
+                    <td id="nota2CSS"></td>
+                    <td id="nota3CSS"></td>
+                    <td id="promedioCSS"></td>
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td id="nota1JS"></td>
+                    <td id="nota2JS"></td>
+                    <td id="nota3JS"></td>
+                    <td id="promedioJS"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="final">
+            <dl class="row">
+                <dt class="col-9 text-end fs-2">Promedio Final:</dt>
+                <dd class="col-3 fs-2" id="promFinal"></dd>
+            </dl>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

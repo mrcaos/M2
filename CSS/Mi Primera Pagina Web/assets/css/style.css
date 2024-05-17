@@ -1,0 +1,52 @@
+body {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.barra {
+    top: 0px;
+    left: 0px;
+    height: 99px;
+    background: #000F08 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.barra li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 57px;
+    margin-top: 28px;
+}
+
+.barra a {
+    color: #ffffff;
+    text-decoration: none; /*quita el subrayado*/
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800px;
+}
+
+.foto1 {
+    /*background-image: url("../img/bg-hero.png");*/
+    background: transparent url('../img/bg-hero.png') 0% 0% no-repeat padding-box;
+    color: white;
+    text-align: right;
+    padding: 60px;
+}
+
+.foto1 h1 {
+    font: normal normal 800 60px/82px Open Sans;
+    letter-spacing: 1.5px;
+}
+
+.foto1 h2 {
+    font: normal normal normal 4;
+    padding: 100px;
+}
+
+.foto2 {
+    text-align: center;
+    padding: 100px;
+}
+
+

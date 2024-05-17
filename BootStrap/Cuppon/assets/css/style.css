@@ -1,0 +1,61 @@
+.body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container-fluid img {
+    width: 86px;
+    height: 25px;
+}
+
+.navbar {
+    background-color: #28A745 !important; 
+    color: white !important;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.card-title {
+    color: #212529;
+}
+
+.card-text {
+    color: #707070;
+}
+
+h6 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    color: #28A745;
+    text-align: right;
+}
+
+.info {
+    background-color: #28A745;
+    color: white;
+    text-align: center; 
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.row {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.boton {
+    text-align: center;
+    padding-top: 10px;
+    padding: 20px;
+}
+
+.footer img {
+    text-align: center;
+    width: 82px;
+    height: 24px;
+    color: #707070;
+}

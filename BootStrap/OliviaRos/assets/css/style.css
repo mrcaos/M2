@@ -1,0 +1,28 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.bg-olivia {
+    background: #373A3C 0% 0% no-repeat padding-box;
+}
+
+header {
+    background: transparent url('../img/bg-hero.jpg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 630px;
+    background-position-x: left;
+}
+
+header h1 {
+    text-align: right;
+    font: normal normal bold 40px/47px Raleway;
+    letter-spacing: 0.4px;
+    opacity: 1;
+}
+
+header p {
+    text-align: right;
+    font: normal normal normal 16px/25px Raleway;
+    letter-spacing: 0.32px;
+    opacity: 1;
+}

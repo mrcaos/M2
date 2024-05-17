@@ -1,0 +1,35 @@
+/* <link rel="stylesheet" href="assets/css/style.css"> 
+comando para ejecutar el style.css*/
+
+/* Estilo por etiqueta*/
+/*todas las etiquetas se ven afectadas*/
+p {
+    /*Color asigna color al texto*/
+    color: blue; 
+}
+
+body {
+    color: darkorange;
+}
+
+/*Estilo por clase (nombre con punto)*/
+/*uno o mas elementos se ven afectados*/
+.pverde {
+    color: green; 
+    /* !important; */
+}
+.div1 {
+    color:fuchsia;
+}
+
+/*El identificador debe ser unico en cada pagina*/
+
+/*El atributo id da estilo y funcionalidad */
+
+/*Estilo por identificador (id) (nombre con # o cardinal*/
+/*estilo solo a un elemento*/
+/*es el mejor metodo*/
+#p4 {
+    color:aquamarine;
+    color:blueviolet;
+}

@@ -1,0 +1,24 @@
+.section_caracteristicas {
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    color: white;
+}
+
+.elementos {
+    /*margin: 0 auto;
+    width: 75%;*/
+    text-align: center;
+    padding: 75px;
+}
+
+.caracteristicas_h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.elementos article {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 24px;
+}

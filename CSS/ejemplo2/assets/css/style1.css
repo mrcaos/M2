@@ -1,0 +1,47 @@
+/*borrado de margenes
+se van todos los margenes
+todo queda junto*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ff0000;
+    background-image: url("../img/free-wallpaper-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center; /*alineacion del texto*/
+    background-color: blue;
+}
+
+/*hexadecimal*/
+#p2{
+    color: #ffdd00; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; /*1em = 16px*/
+}
+
+/*valor numero del 0 al 255*/
+#p3{
+    color: rgb(234, 92, 215);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem; /*1 rem = 16px*/
+}
+
+/*por porcentaje del 0 al 100*/
+#p4{
+    color: rgb(25%, 25%, 50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+/*estudiar la psicologia del color*/
